@@ -1,0 +1,29 @@
+{
+    "records": [
+        {
+            "Name":"Mehul",
+            "Age":"18",
+            "Fav_color":"red"
+        },
+        {
+            "Name":"Ofri",
+            "Age":"18",
+            "Fav_color":"green"
+        },
+        {
+            "Name":"Boaz",
+            "Age":"18",
+            "Fav_color":"black"
+        },
+        {
+            "Name":"Kfir",
+            "Age":"26",
+            "Fav_color":"green"
+        },
+        {
+            "Name":"Anonymous",
+            "Age":"??",
+            "Fav_color":"??"
+        }
+    ]
+}

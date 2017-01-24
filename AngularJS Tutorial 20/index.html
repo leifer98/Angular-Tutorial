@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang='en' >
+  <head>
+    <meta charset="UTF-8">
+    <title>My Angular App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src='controller.js'></script>
+  </head>
+  <body ng-app='mainApp'>
+   <div ng-controller="app">
+   <!--  toggle between the 2 type of codes and see the diffrence-->
+<!--
+       <li ng-repeat="i in myRange">
+           {{i}} <br>
+       </li>
+       <hr>
+       <li ng-repeat="i in [1,2,3]">
+           {{i}} <br>
+       </li>
+       <hr>
+-->
+       <li ng-repeat="i in myRange track by $index">
+           repeat !! <br>
+       </li>
+       <hr>
+   </div>
+  </body>
+</html>
